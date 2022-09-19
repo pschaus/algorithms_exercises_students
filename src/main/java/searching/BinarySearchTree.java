@@ -29,7 +29,6 @@ import utils.BSTNode;
  */
 public class BinarySearchTree {
 
-
     /**
      * Returns the ceiled value of `value` in the tree rooted at `root`
      *

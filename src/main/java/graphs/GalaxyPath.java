@@ -43,9 +43,6 @@ public class GalaxyPath {
         // TODO Your algorithm should execute in O(n^2) where n is the number of galaxies (nodes)
          return -2;
     }
-
-
-
 }
 
 

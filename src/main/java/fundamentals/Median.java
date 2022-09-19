@@ -1,6 +1,5 @@
 package fundamentals;
 
-
 /**
  * Author Pierre Schaus
  *
@@ -48,20 +47,40 @@ public class Median {
             array = new int[n];
         }
 
+        /**
+         * Returns the size of the vector
+         */
         public int size() {
             return array.length;
         }
 
+        /**
+         * Set the index in the vector to the given value
+         *
+         * @param i the index of the vector
+         * @param v the value to set
+         */
         public void set(int i, int v) {
             nOp++;
             array[i] = v;
         }
 
+        /**
+         * Returns the value at the given index
+         *
+         * @param i The index from which to retrieve the value
+         */
         public int get(int i) {
             nOp++;
             return array[i];
         }
 
+        /**
+         * Exchanges elements in the array
+         *
+         * @param i the first index to swap
+         * @param j the second index to swap
+         */
         public void swap(int i, int j) {
             nOp++;
             int tmp = array[i];
@@ -69,22 +88,25 @@ public class Median {
             array[j] = tmp;
         }
 
+        /**
+         * Returns the number of operation that has been made
+         */
         public int nOp() {
             return nOp;
         }
-
-
-
     }
 
 
-
-
-    public static int median(Vector a, int lo, int hi) {
+    /**
+     * Returns the median value of the vector between two indices
+     *
+     * @param vec the vector
+     * @param lo the lowest index from which the median is computed
+     * @param hi the highest index from which the median is computed
+     */
+    public static int median(Vector vec, int lo, int hi) {
         // TODO
          return -1;
     }
-
-
 
 }
