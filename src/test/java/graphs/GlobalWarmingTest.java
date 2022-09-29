@@ -1,7 +1,5 @@
 package graphs;
 
-import utils.Point;
-
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -31,10 +29,10 @@ public class GlobalWarmingTest {
 
             GlobalWarming globalWarming = new GlobalWarming(altitude, waterLevel);
             assertEquals(4, globalWarming.nbIslands());
-            Point p1 = new Point(1, 0);
-            Point p2 = new Point(3, 1);
-            Point p3 = new Point(1, 3);
-            Point p4 = new Point(0, 0);
+            GlobalWarming.Point p1 = new GlobalWarming.Point(1, 0);
+            GlobalWarming.Point p2 = new GlobalWarming.Point(3, 1);
+            GlobalWarming.Point p3 = new GlobalWarming.Point(1, 3);
+            GlobalWarming.Point p4 = new GlobalWarming.Point(0, 0);
             assertTrue(globalWarming.onSameIsland(p1, p2));
             assertFalse(globalWarming.onSameIsland(p1, p3));
             assertFalse(globalWarming.onSameIsland(p1, p4));
