@@ -1,7 +1,5 @@
 package searching;
 
-import utils.BSTNode;
-
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import com.github.guillaumederval.javagrading.Grade;
@@ -26,7 +24,7 @@ public class BinarySearchTreeTest {
             int [] values = new int []{12, 8, 18, 3, 11, 14, 20, 9, 15};
             int [] inputs = new int []{11, 14, 9, 4, 16, 10, 19, 21, 30, 40};
 
-            BSTNode<Integer> root = new BSTNode<>(values[0]);
+            BinarySearchTree.BSTNode<Integer> root = new BinarySearchTree.BSTNode<>(values[0]);
             correct.add(values[0]);
             for (int i = 0; i < values.length; i++) {
                 root.add(values[i]);
