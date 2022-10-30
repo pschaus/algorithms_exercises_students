@@ -12,7 +12,7 @@ public class UnionTest {
 
 
     @Test
-    @Grade(value = 25)
+    @Grade(value = 1)
     public void testUnits() {
 
         Union.Interval i1 = new Union.Interval(1, 3);

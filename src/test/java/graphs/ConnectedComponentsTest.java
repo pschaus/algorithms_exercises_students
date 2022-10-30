@@ -1,5 +1,6 @@
 package graphs;
 
+import com.github.guillaumederval.javagrading.Grade;
 import org.junit.Test;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
@@ -11,6 +12,7 @@ import java.io.IOException;
 import java.util.*;
 
 import static org.junit.Assert.assertEquals;
+import com.github.guillaumederval.javagrading.Grade;
 
 @RunWith(Enclosed.class)
 public class ConnectedComponentsTest {
@@ -35,6 +37,7 @@ public class ConnectedComponentsTest {
         }
 
         @Test
+        @Grade(value=1)
         public void test() throws Exception {
             int student_solution = ConnectedComponents.numberOfConnectedComponents(instance.graph);
             assertEquals(student_solution, instance.solutions);
@@ -63,6 +66,7 @@ public class ConnectedComponentsTest {
         }
 
         @Test
+        @Grade(value=1)
         public void test() throws Exception {
             int student_solution = ConnectedComponents.numberOfConnectedComponents(instance.graph);
             assertEquals(student_solution, instance.solutions);
@@ -92,6 +96,7 @@ public class ConnectedComponentsTest {
         }
 
         @Test(timeout = 3000)
+        @Grade(value=1)
         public void test() throws Exception {
             int student_solution = ConnectedComponents.numberOfConnectedComponents(instance.graph);
             assertEquals(student_solution, instance.solutions);

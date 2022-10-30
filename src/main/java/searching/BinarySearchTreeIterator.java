@@ -24,6 +24,18 @@ import java.util.NoSuchElementException;
  *
  * The BSTNode are generic over their key (the integers in the example above) and implement the 
  * BinaryNode and KeyNode interface available in the utils package.
+ *
+ * Hint: You have two strategies to implement this iterator Fail-Fast and Fail-Safe
+ * https://www.geeksforgeeks.org/fail-fast-fail-safe-iterators-java/
+ *
+ * The Fail-Safe will collect all the keys in a collection and return an iterator on this collection.
+ * The Fail-Fast will lazily return the elements and throw an exception if the BST is modified while iterating on it.
+ *
+ * The advantage of Fail-Fast is that the constructor and iteration is Lazy.
+ * The total cost of iterating will be Theta(n) but the initialization can be O(h).
+ *
+ * It is a good exercise to implement both version.
+ *
  */
 public class BinarySearchTreeIterator<Key extends Comparable<Key>> implements Iterable<Key> {
 
@@ -144,7 +156,7 @@ public class BinarySearchTreeIterator<Key extends Comparable<Key>> implements It
         }
 
         /**
-         * Adds a new value in the subtree rooted a this node
+         * Adds a new value in the subtree rooted at this node
          */
         public void add(K key) {
             if (key.compareTo(this.key) > 0) {
