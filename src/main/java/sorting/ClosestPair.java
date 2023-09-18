@@ -1,7 +1,8 @@
 package sorting;
 
 /**
- * Let a be an array of integers. In this exercise we are interested in finding
+ * Let a be an array of integers.
+ * In this exercise we are interested in finding
  * the two entries i and j such that a[i] + a[j] is the closest from a target x.
  * In other words, there are no entries k,l such that |x - (a[i] + a[j])| > |x - (a[k] + a[l])|.
  * Note that we can have i = j.
@@ -22,6 +23,6 @@ public class ClosestPair {
       * @param x the target value for the sum
       */
     public static int[] closestPair(int [] a, int x) {
-        // TODO STUDENT return null;
+         return null; // TODO
     }
 }

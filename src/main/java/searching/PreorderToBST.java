@@ -44,7 +44,7 @@ public class PreorderToBST {
     }
 
     /**
-     * Reconstruct the BST based on a valid preorder serialization
+     * Reconstruct the BST based on a valid preorder serialization in O(n)
      * For instance for [10,5,7,14,12] you should have root equal to
      * new Node(new Node(null,new Node(null,null,7,1),5,2),new Node(new Node(null,null,12,1),null,14,2),10,5)
      * @param preOrderInput is a valid output obtained using preorderWrite
@@ -57,7 +57,6 @@ public class PreorderToBST {
     public Node preorderRead(int [] preOrderInput, int i, int min, int max) {
         // !!!!!!! TODO !!!!!!!!
          return new Node(null,null,preOrderInput[0]);
-        
     }
 
     public int[] preorderWrite() {

@@ -20,7 +20,7 @@ public class CardSorter {
      *
      * @param list: a list of integers to be sorted.
      */
-    public static void sort(LinkedList list) {
+    public static void sort(LinkedListImpl list) {
         // Here is a small loop with an invariant that you should try to respect
         // although, it's not mandatory, try to respect it, it will help you ;-)
 
@@ -37,7 +37,7 @@ public class CardSorter {
 
 }
 
-class LinkedList {
+class LinkedListImpl {
 
     private Node first;
     private Node second;
@@ -70,7 +70,7 @@ class LinkedList {
      *
      * @param array
      */
-    LinkedList(int[] array) {
+    LinkedListImpl(int[] array) {
         nPops = 0;
         nSwaps = 0;
         len = 0;

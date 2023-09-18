@@ -2,7 +2,8 @@ package graphs;
 
 
 /**
- *Implement the Digraph.java interface in the Digraph.java class using an adjacency list
+ * Implement the Digraph.java interface in
+ * the Digraph.java class using an adjacency list
  * data structure to represent directed graphs.
  */
 public class Digraph {
@@ -49,6 +50,7 @@ public class Digraph {
      */
     public Digraph reverse() {
         // TODO
+         return null;
     }
 
 }

@@ -1,18 +1,25 @@
 package sorting;
 
-import com.github.guillaumederval.javagrading.Grade;
-import org.junit.Test;
-import sorting.Union;
+import org.javagrader.ConditionalOrderingExtension;
+import org.javagrader.Grade;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.extension.ExtendWith;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import java.util.*;
 
-import static org.junit.Assert.*;
-
+@ExtendWith(ConditionalOrderingExtension.class)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@Grade
 public class UnionTest {
 
 
     @Test
     @Grade(value = 1)
+    @Order(1)
     public void testUnits() {
 
         Union.Interval i1 = new Union.Interval(1, 3);

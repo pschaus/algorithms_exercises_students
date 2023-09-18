@@ -2,11 +2,15 @@ package graphs;
 
 
 /**
- * In this exercise, we revisit the GlobalWarming class from the sorting package.
- * You are still given a matrix of altitude in parameter of the constructor, with a water level.
- * All the entries whose altitude is under, or equal to, the water level are submerged while the other constitute small islands.
+ * In this exercise, we revisit the GlobalWarming
+ * class from the sorting package.
+ * You are still given a matrix of altitude in
+ * parameter of the constructor, with a water level.
+ * All the entries whose altitude is under, or equal to,
+ * the water level are submerged while the other constitute small islands.
  *
- * For example let us assume that the water level is 3 and the altitude matrix is the following
+ * For example let us assume that the water
+ * level is 3 and the altitude matrix is the following
  *
  *      | 1 | 3 | 3 | 1 | 3 |
  *      | 4 | 2 | 2 | 4 | 5 |
@@ -14,7 +18,8 @@ package graphs;
  *      | 1 | 4 | 2 | 3 | 6 |
  *      | 1 | 1 | 1 | 6 | 3 |
  * 
- * If we replace the submerged entries by _, it gives the following matrix
+ * If we replace the submerged entries
+ * by _, it gives the following matrix
  *
  *      | _ | _ | _ | _ | _ |
  *      | 4 | _ | _ | 4 | 5 |
@@ -22,14 +27,19 @@ package graphs;
  *      | _ | 4 | _ | _ | 6 |
  *      | _ | _ | _ | 6 | _ |
  *
- * The goal is to implmets two methods that can answer the following questions:
- *      1) Are to entries on the same island?
- *      2) How many island is there
+ * The goal is to implement two methods that
+ * can answer the following questions:
+ *      1) Are two entries on the same island?
+ *      2) How many islands are there
  *
- * Two entries above the water level are connected if they are next to each other on
- * the same row or the same column. They are **not** connected **in diagonal**.
- * Beware that the methods must run in O(1) time complexity, at the cost of a pre-processing in the constructor.
- * To help you, you'll find a `Point` class in the utils package which identified an entry of the grid.
+ * Two entries above the water level are
+ * connected if they are next to each other on
+ * the same row or the same column. They are
+ * **not** connected **in diagonal**.
+ * Beware that the methods must run in O(1)
+ * time complexity, at the cost of a pre-processing in the constructor.
+ * To help you, you'll find a `Point` class
+ * in the utils package which identified an entry of the grid.
  * Carefully read the expected time complexity of the different methods.
  */
 public class GlobalWarming {
@@ -55,7 +65,7 @@ public class GlobalWarming {
     }
 
     /**
-     * Return true if p1 is on the same island than p2, false otherwise
+     * Return true if p1 is on the same island as p2, false otherwise
      *
      * Expected time complexity: O(1)
      *

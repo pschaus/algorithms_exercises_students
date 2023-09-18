@@ -1,35 +1,28 @@
 package sorting;
 
+import org.javagrader.Grade;
+import org.javagrader.CustomGradingResult;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.github.guillaumederval.javagrading.Grade;
-import com.github.guillaumederval.javagrading.GradeFeedback;
-import com.github.guillaumederval.javagrading.GradeFeedbacks;
-import com.github.guillaumederval.javagrading.GradingRunner;
-import com.github.guillaumederval.javagrading.CustomGradingResult;
-import com.github.guillaumederval.javagrading.TestStatus;
-import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import java.util.*;
 
-import static org.junit.Assert.*;
-
-@RunWith(GradingRunner.class)
+@Grade
 public class CardSorterTest {
 
 
     public void test(int[] array) {
-        LinkedList l = new LinkedList(array);
+        LinkedListImpl l = new LinkedListImpl(array);
 
         CardSorter.sort(l);
 
         int pops = l.getnPops();
         int swaps = l.getnSwaps();
-        int out = 0;
 
-        assertTrue("array sorted", l.isSorted());
-        assertTrue("number of pop >= array.length^2", pops <= array.length * array.length);
-        assertTrue("number of swaps >= array.length^2", swaps <= array.length * array.length);
+        assertTrue(l.isSorted());
+        assertTrue(pops <= array.length * array.length);
+        assertTrue(swaps <= array.length * array.length);
 
     }
 
@@ -42,7 +35,7 @@ public class CardSorterTest {
 
     @Test
     public void testExample() {
-        LinkedList l = new LinkedList(new int[]{7, 8, 2, 22, 102, 1});
+        LinkedListImpl l = new LinkedListImpl(new int[]{7, 8, 2, 22, 102, 1});
         CardSorter.sort(l);
         assertTrue(l.isSorted());
     }
