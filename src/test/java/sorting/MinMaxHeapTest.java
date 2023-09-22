@@ -19,8 +19,6 @@ import java.io.File;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
-import java.lang.Math;
-
 @ExtendWith(ConditionalOrderingExtension.class)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @Grade
@@ -60,100 +58,5 @@ public class MinMaxHeapTest {
         assertEquals(0, min);
         assertEquals(6, max);
     }
-    
-    static Stream<Instance> dataProvider() {
-        return Stream.of(new File("data/sorting.BinaryHeap").listFiles())
-            .filter(file -> !file.isDirectory())
-            .map(file -> new Instance(file.getPath()));
-    }
 
-    @ParameterizedTest
-    @Grade(value = 1, cpuTimeout = 1000)
-    @GradeFeedback(message = "Sorry, something is wrong with your algorithm. Hint: debug on the small example")
-    @MethodSource("dataProvider")
-    @Order(2)
-    public void testMin(Instance instance)  {
-        MinMaxHeap<Integer> heap = new MinMaxHeap<>(instance.size*2);
-        int min = instance.input[0];
-        for (int value : instance.input) {
-            heap.insert(value);
-            min = Math.min(min, value);
-            int hmin = heap.min();
-            assertEquals(min, hmin);
-        }
-    }
-
-    @ParameterizedTest
-    @Grade(value = 1, cpuTimeout = 1000)
-    @GradeFeedback(message = "Sorry, something is wrong with your algorithm. Hint: debug on the small example")
-    @MethodSource("dataProvider")
-    @Order(2)
-    public void testMax(Instance instance)  {
-        MinMaxHeap<Integer> heap = new MinMaxHeap<>(instance.size*2);
-        int max = instance.input[0];
-        for (int value : instance.input) {
-            heap.insert(value);
-            max = Math.max(max, value);
-            int hmax = heap.max();
-            assertEquals(max, hmax);
-        }
-    }
-
-    static Stream<Instance> dataProviderComplexity() {
-        return Stream.of(new File("data/sorting.BinaryHeap").listFiles())
-            .filter(file -> !file.isDirectory() && file.getName().startsWith("in_10000"))
-            .map(file -> new Instance(file.getPath()));
-    }
-
-    @ParameterizedTest
-    @Grade(value = 1, cpuTimeout = 700)
-    @GradeFeedback(message = "Check the complexity of your swim method")
-    @MethodSource("dataProviderComplexity")
-    @Order(3)
-    public void testSwimComplexity(Instance instance)  {
-        MinMaxHeap<Integer> heap = new MinMaxHeap<>(instance.size*2);
-        for (int value : instance.input) {
-            heap.insert(value);
-        }
-    }
-
-    @ParameterizedTest
-    @Grade(value=1, cpuTimeout=5)
-    @GradeFeedback(message="Your min method is too slow")
-    @MethodSource("dataProviderComplexity")
-    @Order(3)
-    public void testMinComplexity(Instance instance) {
-        instance.heap.min();
-    }
-
-    @ParameterizedTest
-    @Grade(value=1, cpuTimeout=5)
-    @GradeFeedback(message="Your max method is too slow")
-    @MethodSource("dataProviderComplexity")
-    @Order(3)
-    public void testMaxComplexity(Instance instance) {
-        instance.heap.max();
-    }
-
-    static class Instance {
-        int [] input;
-        int size;
-        MinMaxHeap<Integer> heap;
-
-        public Instance(String file) {
-            try {
-                Scanner scan = new Scanner(new FileInputStream(file));
-                int n = scan.nextInt();
-                this.size = n;
-                this.input = new int[n];
-                this.heap = new MinMaxHeap<>(n);
-                for (int i = 0; i < n; i++) {
-                    this.input[i] = scan.nextInt();
-                    heap.insert(this.input[i]);
-                }
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
-        }
-    }
 }

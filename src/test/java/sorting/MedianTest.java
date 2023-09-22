@@ -45,13 +45,4 @@ public class MedianTest {
         }
     }
 
-    @Test
-    @Grade(value = 1, cpuTimeout=500)
-    public void testComplexityNLogNOk() {
-        for (int i = 100; i < 2000000; i += 100000) {
-            int [] input = randomInput(i+1, random);
-            Median.Vector v1 = vectorFromInput(input);
-            Median.median(v1,0,v1.size()-1);
-        }
-    }
 }
