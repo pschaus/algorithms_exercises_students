@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.*;
 
+@Grade
 public class DroneContestTest {
     private static Drone[] copyAndShuffle(Drone[] in, Random r) {
         Drone[] out = Arrays.copyOf(in, in.length);

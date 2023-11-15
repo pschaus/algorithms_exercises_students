@@ -19,6 +19,22 @@ import java.util.Random;
 public class GlobalWarmingImplTest {
 
 
+    public int [][] getSimpleMatrix() {
+        int[][] matrix = new int[][]{
+                {0, 0, 0, 0, 0, 1, 1, 1, 0, 0},
+                {0, 1, 0, 0, 0, 1, 0, 1, 1, 1},
+                {0, 0, 0, 0, 0, 1, 0, 0, 1, 0},
+                {0, 1, 0, 0, 0, 1, 0, 1, 1, 0},
+                {0, 1, 0, 0, 0, 1, 1, 1, 1, 1},
+                {0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 0, 1, 1, 1, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+        };
+        return matrix;
+    }
+
     @Test
     @Grade(value=1)
     public void testSimpleAll() {
