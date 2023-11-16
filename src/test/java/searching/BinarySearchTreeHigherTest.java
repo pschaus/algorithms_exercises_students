@@ -19,7 +19,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Grade
 public class BinarySearchTreeHigherTest {
     
-    private static final Random random = new Random(699645);
     
     @Test
     @Grade(value=5)

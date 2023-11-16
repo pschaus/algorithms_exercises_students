@@ -1,3 +1,4 @@
+package searching;
 
 /**
  * We are interested in the implementation of an LRU cache,
