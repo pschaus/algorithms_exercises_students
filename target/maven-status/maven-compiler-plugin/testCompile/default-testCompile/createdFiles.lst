@@ -1,15 +1,15 @@
 graphs/DigraphTest.class
 graphs/MazeTest.class
 searching/BinarySearchTreeTest.class
-sorting/ClosestPairTest.class
 sorting/PhotoTest.class
+sorting/ClosestPairTest.class
 searching/BinarySearchTreeHigherTest.class
 searching/BinarySearchTreeIteratorTest.class
 searching/SkylineTest.class
 searching/ArrayBSTTest.class
 sorting/MergeSortTest.class
-searching/BirthdayMapTest.class
 strings/IncrementalHashTest.class
+searching/BirthdayMapTest.class
 graphs/SmallestPriceTest.class
 graphs/BubblesTest.class
 sorting/BinaryHeapTest.class
@@ -44,5 +44,5 @@ fundamentals/FListTest.class
 graphs/WordTransformationSPTest.class
 sorting/CardSorterTest.class
 graphs/MineClimbingTest.class
-searching/LRUCacheTest.class
 strings/WordCounterTest.class
+searching/LRUCacheTest.class

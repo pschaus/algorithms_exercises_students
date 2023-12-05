@@ -56,9 +56,9 @@ sorting/GlobalWarmingImpl.class
 fundamentals/ArrayStack.class
 graphs/GlobalWarmingGenerator.class
 strings/RabinKarp.class
+strings/IncrementalHash.class
 sorting/HeightChange.class
 searching/Skyline.class
-strings/IncrementalHash.class
 graphs/MineClimbing.class
 sorting/MinPQLinked$Node.class
 searching/BinarySearchTree$BSTNode.class
