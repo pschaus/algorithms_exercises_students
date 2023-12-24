@@ -12,8 +12,7 @@ import java.util.EmptyStackException;
 public interface Stack<E> {
 
     /**
-     * Looks at the object at the top of this stack
-     * without removing it from the stack
+     * Returns True if the stack is empty False otherwise
      */
     public boolean empty();
 
