@@ -4,62 +4,32 @@ import java.util.*;
 
 /**
  * Author: Alexis Englebert
- * You are the chief operator of a new power plant in the new city of Louvain-La-Neuve.
- * Unfortunately, the engineers have not provided you with the plans for the city's electrical network.
- * All you know is the size of the electrical wires between each city.
- * You are well aware that the cost associated with the electrical wires is enormous.
- * Therefore, you want to minimize these costs throughout the entire electrical network. In a such way
- * that each city is connected by one wire.
+ * Context: You are operating a power plant in the new city of Louvain-La-Neuve,
+ * but lack plans for the city's electrical network.
+ * Your goal is to minimize the cost of electrical wires ensuring the city is connected with just one wire.
  *
- *                                   ┌───────┐
- *                                   │       │
- *                                   │   1   │
- *                            ┌──────┤       ├─────┐
- *                            │      └───────┘     │
- *                       (5)  │                    │ (20)
- *                            │                    │
- *                            │                    │
- *                         ┌──┴────┐          ┌────┴──┐
- *                         │       │          │       │
- *                         │   2   ├──────────┤   3   │
- *                         │       │   (10)   │       │
- *                         └───────┘          └───────┘
+ * The method 'minimumSpanningTreeCost' is designed to find the minimum cost to connect all cities in a given electrical network.
+ * The network is represented as a graph where the nodes are the buildings, the edges are the possible connections
+ * and their associated cost.
  *
- * In the given network above the minimum cost is 15 (5 + 10)
+ * Example:
+ * Given a network with three buildings (nodes) and the cost of wires (edges) between them:
+ * 0 - 1 (5), 1 - 2 (10), 0 - 2 (20)
+ * The minimum cost to connect all the buildings is 15 (5 + 10).
  *
+ * Note: The method assumes that the input graph is connected and the input is valid.
  */
-
 public class Electricity {
 
-
     /**
-     * @param network list of edges in the network
+     * @param n       The number of buildings (nodes) in the network.
+     * @param edges   A 2D array where each row represents an edge in the form [building1, building2, cost].
+     *                The edges are undirected so (building2, building1, cost) is equivalent to (building1, building2, cost).
+     * @return       The minimum cost to connect all cities.
      */
-    public Electricity(List<Edge> network) {
+    public static int minimumSpanningCost(int n, int [][] edges) {
         //TODO
-
-    }
-
-    /**
-     * Returns the minimum cost in the network
-     * @returns minimum cost in the network
-     */
-    int getMinCost() {
-        // TODO
          return -1;
-    }
-
-    static class Edge {
-        int source;
-        int dest;
-        int weight;
-
-        Edge(int s, int d, int w) {
-            this.source = s;
-            this.dest = d;
-            this.weight = w ;
-        }
-
     }
 
 }

@@ -36,7 +36,6 @@ graphs/DepthFirstPathsTest.class
 searching/RedBlackTreeConverterTest$RBTChecker.class
 searching/PreorderToBSTTest.class
 sorting/GlobalWarmingImplTest.class
-graphs/ElectricityTest$Instance.class
 graphs/GalaxyPathTest.class
 searching/LinearProbingHashSTTest.class
 strings/HuffmanTest.class

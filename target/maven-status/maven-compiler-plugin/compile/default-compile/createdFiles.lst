@@ -2,7 +2,6 @@ strings/HuffmanGenerator.class
 sorting/Union.class
 sorting/BinaryHeap.class
 graphs/TaskScheduler.class
-graphs/Electricity$Edge.class
 fundamentals/StackWithTwoQueues.class
 searching/PreorderToBST$Node.class
 graphs/GlobalWarmingPaths$Point.class
