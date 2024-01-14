@@ -2,11 +2,12 @@ strings/HuffmanGenerator.class
 sorting/Union.class
 sorting/BinaryHeap.class
 graphs/TaskScheduler.class
+graphs/Electricity$Edge.class
 fundamentals/StackWithTwoQueues.class
 searching/PreorderToBST$Node.class
 graphs/GlobalWarmingPaths$Point.class
-sorting/LinkedListImpl$1.class
 searching/BinarySearchTreeHigher.class
+sorting/LinkedListImpl$1.class
 sorting/GlobalWarming.class
 searching/BinarySearchTree.class
 searching/BinarySearchTreeIterator.class
@@ -26,6 +27,7 @@ graphs/DepthFirstPaths$Graph.class
 graphs/GalaxyInstanceGenerator.class
 strings/IncrementalHashInstanceGenerator$IncrementalHashBaseLine.class
 searching/RedBlackTreeConverter.class
+graphs/Electricity.class
 strings/IncrementalHashInstanceGenerator.class
 graphs/GlobalWarmingPaths.class
 sorting/Median$Vector.class
@@ -39,8 +41,8 @@ graphs/SmallestPrice.class
 graphs/GalaxyPath.class
 graphs/DepthFirstPaths.class
 searching/BinarySearchTreeHigher$Node.class
-searching/BirthdayMap.class
 searching/ArrayBST.class
+searching/BirthdayMap.class
 graphs/WordTransformationSP.class
 searching/RedBlackTreeConverter$RBNode.class
 strings/IncrementalHashInstanceGenerator$Instance.class
@@ -57,11 +59,11 @@ fundamentals/ArrayStack.class
 graphs/GlobalWarmingGenerator.class
 strings/RabinKarp.class
 strings/IncrementalHash.class
-sorting/HeightChange.class
 searching/Skyline.class
+sorting/HeightChange.class
 graphs/MineClimbing.class
-sorting/MinPQLinked$Node.class
 searching/BinarySearchTree$BSTNode.class
+sorting/MinPQLinked$Node.class
 graphs/SmallestPrice$Pair.class
 searching/ArrayBSTDelete.class
 searching/RedBlackTreeConverter$Color.class
@@ -82,8 +84,8 @@ graphs/Digraph.class
 sorting/Union$Interval.class
 graphs/GlobalWarming.class
 graphs/ConnectedComponents.class
-sorting/CardSorter.class
 fundamentals/CircularLinkedList$Node.class
+sorting/CardSorter.class
 graphs/Maze.class
 graphs/Trains.class
 sorting/LinkedListImpl.class
