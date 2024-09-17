@@ -9,6 +9,7 @@ sorting/LinkedListImpl$1.class
 searching/BinarySearchTreeHigher.class
 graphs/GlobalWarmingPaths$Point.class
 sorting/GlobalWarming.class
+fundamentals/SegmentedList.class
 searching/BinarySearchTree.class
 searching/BinarySearchTreeIterator.class
 strings/WordCounter.class
@@ -86,6 +87,7 @@ sorting/ClosestPair.class
 graphs/Digraph.class
 sorting/Union$Interval.class
 graphs/GlobalWarming.class
+fundamentals/SegmentedListImpl.class
 graphs/ConnectedComponents.class
 sorting/CardSorter.class
 fundamentals/CircularLinkedList$Node.class

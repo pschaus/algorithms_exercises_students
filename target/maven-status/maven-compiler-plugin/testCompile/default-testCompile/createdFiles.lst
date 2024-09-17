@@ -43,6 +43,7 @@ sorting/GlobalWarmingImplTest.class
 graphs/GalaxyPathTest.class
 searching/LinearProbingHashSTTest.class
 strings/HuffmanTest.class
+fundamentals/SegmentedListTest.class
 sorting/UnionTest.class
 sorting/MinMaxHeapTest.class
 graphs/GlobalWarmingTest.class
