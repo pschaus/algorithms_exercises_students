@@ -1,5 +1,5 @@
-searching/BinarySearchTreeTest.class
 graphs/MazeTest.class
+searching/BinarySearchTreeTest.class
 sorting/PhotoTest.class
 sorting/AggregateTest.class
 searching/BinarySearchTreeHigherTest.class
@@ -12,12 +12,12 @@ fundamentals/CircularLinkedListTest.class
 sorting/MinPQLinkedTest.class
 fundamentals/StackWithTwoQueuesTest.class
 graphs/ErdosTest.class
-searching/ArrayBSTDeleteTest.class
 graphs/EvacuationTest.class
 graphs/BreadthFirstShortestPathsTest.class
+searching/ArrayBSTDeleteTest.class
 sorting/TernaryHeapTest.class
-graphs/ElectricityTest.class
 graphs/ConnectedComponentsTest.class
+graphs/ElectricityTest.class
 graphs/TrainsTest.class
 sorting/DroneContestTest.class
 graphs/TaskSchedulerTest.class
@@ -26,8 +26,8 @@ graphs/GlobalWarmingPathsTest.class
 searching/MonkeysTest.class
 sorting/MedianTest.class
 sorting/CardSorterTest.class
-strings/WordCounterTest.class
 graphs/MineClimbingTest.class
+strings/WordCounterTest.class
 graphs/DigraphTest.class
 sorting/ClosestPairTest.class
 searching/SkylineTest.class
@@ -42,10 +42,10 @@ searching/PreorderToBSTTest.class
 sorting/GlobalWarmingImplTest.class
 graphs/GalaxyPathTest.class
 searching/LinearProbingHashSTTest.class
-strings/HuffmanTest.class
 fundamentals/SegmentedListTest.class
-sorting/UnionTest.class
+strings/HuffmanTest.class
 sorting/MinMaxHeapTest.class
+sorting/UnionTest.class
 graphs/GlobalWarmingTest.class
 sorting/TrainingSessionsTest.class
 graphs/WildfireTest.class
