@@ -68,6 +68,7 @@ graphs/MineClimbing.class
 sorting/MinPQLinked$Node.class
 searching/BinarySearchTree$BSTNode.class
 graphs/Erdos.class
+sorting/RadixSort.class
 graphs/SmallestPrice$Pair.class
 searching/ArrayBSTDelete.class
 searching/RedBlackTreeConverter$Color.class

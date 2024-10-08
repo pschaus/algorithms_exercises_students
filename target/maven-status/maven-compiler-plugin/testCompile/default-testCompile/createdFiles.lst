@@ -21,6 +21,7 @@ graphs/ElectricityTest.class
 graphs/TrainsTest.class
 sorting/DroneContestTest.class
 graphs/TaskSchedulerTest.class
+sorting/RadixSortTest.class
 strings/RabinKarpTest.class
 graphs/GlobalWarmingPathsTest.class
 searching/MonkeysTest.class
