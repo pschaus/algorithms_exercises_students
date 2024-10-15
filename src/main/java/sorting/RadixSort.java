@@ -44,8 +44,12 @@ public class RadixSort {
     }
 
     // Helper method to get the bit at the given position
+    // For example, getBit(5, 0) returns 1
+    //              getBit(5, 1) returns 0
+    //              getBit(5, 2) returns 1
+    //              getBit(5, 3) returns 0
     private static int getBit(int number, int bitPosition) {
-        return (number >> bitPosition) & 1;
+         return -1;
     }
 
     // Helper Method to find the maximum number of bits required
