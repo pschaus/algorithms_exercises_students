@@ -1,10 +1,12 @@
 strings/HuffmanGenerator.class
 sorting/Union.class
 sorting/BinaryHeap.class
+strings/AutoCompleterGenerator$1.class
 graphs/TaskScheduler.class
 sorting/TrainingSessions.class
 fundamentals/StackWithTwoQueues.class
 searching/PreorderToBST$Node.class
+strings/AutoCompleter.class
 graphs/GlobalWarmingPaths$Point.class
 searching/BinarySearchTreeHigher.class
 sorting/LinkedListImpl$1.class
@@ -18,6 +20,7 @@ graphs/Contact.class
 fundamentals/CircularLinkedList.class
 sorting/ClosestPairGenerator.class
 graphs/MineClimbingInstanceGenerator.class
+strings/AutoCompleterGenerator.class
 graphs/ForbiddenRelation.class
 fundamentals/CircularLinkedList$ListIterator.class
 searching/Person.class
@@ -30,6 +33,7 @@ graphs/GalaxyInstanceGenerator.class
 strings/IncrementalHashInstanceGenerator$IncrementalHashBaseLine.class
 searching/RedBlackTreeConverter.class
 graphs/Electricity.class
+strings/AutoCompleterGenerator$AutoCompleterBaseLine$StringNode.class
 sorting/Aggregate.class
 strings/IncrementalHashInstanceGenerator.class
 graphs/GlobalWarmingPaths.class
@@ -37,6 +41,7 @@ sorting/Median$Vector.class
 fundamentals/FList$1.class
 fundamentals/FList$Nil.class
 fundamentals/Stack.class
+strings/AutoCompleterGenerator$AutoCompleterBaseLine.class
 fundamentals/FList$Cons.class
 searching/Monkeys$OperationMonkey.class
 graphs/Wildfire.class
@@ -75,6 +80,7 @@ searching/ArrayBSTDelete.class
 searching/RedBlackTreeConverter$Color.class
 fundamentals/CircularLinkedList$1.class
 graphs/ConnectedComponentsInstanceGenerator.class
+strings/AutoCompleter$1.class
 strings/Huffman.class
 fundamentals/LinkedStack$Node.class
 sorting/MinPQLinked.class
@@ -94,9 +100,12 @@ graphs/ConnectedComponents.class
 sorting/CardSorter.class
 fundamentals/CircularLinkedList$Node.class
 graphs/Maze.class
+strings/AutoCompleter$Node.class
 graphs/Trains.class
 sorting/LinkedListImpl.class
+strings/AutoCompleterGenerator$AutoCompleterBaseLine$Node.class
 searching/LinearProbingHashST.class
+strings/AutoCompleterGenerator$Instance.class
 sorting/Median.class
 sorting/MinMaxHeap.class
 sorting/DroneContest.class

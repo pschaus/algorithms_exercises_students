@@ -39,6 +39,7 @@ sorting/BinaryHeapTest.class
 sorting/MedianHeapTest.class
 searching/RedBlackTreeConverterTest.class
 graphs/DepthFirstPathsTest.class
+strings/AutoCompleterTest.class
 searching/RedBlackTreeConverterTest$RBTChecker.class
 searching/PreorderToBSTTest.class
 sorting/GlobalWarmingImplTest.class

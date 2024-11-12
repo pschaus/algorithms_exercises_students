@@ -15,6 +15,7 @@
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/fundamentals/Stack.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/searching/LRUCache.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/graphs/Maze.java
+/__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/strings/AutoCompleterGenerator.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/sorting/DroneContest.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/strings/IncrementalHash.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/strings/IncrementalHashInstanceGenerator.java
@@ -59,6 +60,7 @@
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/searching/ArrayBST.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/graphs/ConnectedComponents.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/searching/LinearProbingHashST.java
+/__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/strings/AutoCompleter.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/graphs/BreadthFirstShortestPaths.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/strings/WordCounter.java
 /__w/algorithms_exercises/algorithms_exercises/algorithms_exercises_students/src/main/java/graphs/BreadthFirstShortestPathsInstanceGenerator.java
