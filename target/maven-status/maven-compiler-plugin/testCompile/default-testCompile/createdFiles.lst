@@ -8,6 +8,7 @@ searching/BirthdayMapTest.class
 graphs/SmallestPriceTest.class
 graphs/BubblesTest.class
 searching/MonkeysTest$Instance.class
+searching/BitsetTest.class
 fundamentals/CircularLinkedListTest.class
 sorting/MinPQLinkedTest.class
 fundamentals/StackWithTwoQueuesTest.class

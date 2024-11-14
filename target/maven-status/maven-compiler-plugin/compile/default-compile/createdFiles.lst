@@ -5,6 +5,7 @@ strings/AutoCompleterGenerator$1.class
 graphs/TaskScheduler.class
 sorting/TrainingSessions.class
 fundamentals/StackWithTwoQueues.class
+searching/Bitset.class
 searching/PreorderToBST$Node.class
 strings/AutoCompleter.class
 graphs/GlobalWarmingPaths$Point.class
