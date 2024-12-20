@@ -49,6 +49,7 @@ graphs/Wildfire.class
 graphs/SmallestPrice.class
 graphs/GalaxyPath.class
 graphs/DepthFirstPaths.class
+graphs/ToyInventory.class
 searching/ArrayBST.class
 searching/BirthdayMap.class
 searching/BinarySearchTreeHigher$Node.class
@@ -81,15 +82,19 @@ searching/ArrayBSTDelete.class
 searching/RedBlackTreeConverter$Color.class
 fundamentals/CircularLinkedList$1.class
 graphs/ConnectedComponentsInstanceGenerator.class
+searching/SleighRanking.class
 strings/AutoCompleter$1.class
 strings/Huffman.class
 fundamentals/LinkedStack$Node.class
+searching/CandiesBag.class
 sorting/MinPQLinked.class
 sorting/Photo.class
+graphs/CriticalPathways.class
 searching/Monkeys$Monkey.class
 strings/HuffmanNode.class
 graphs/BreadthFirstShortestPaths$Graph.class
 sorting/LinkedListImpl$Node.class
+sorting/PancakeSorting.class
 searching/PreorderToBST.class
 graphs/BreadthFirstShortestPathsInstanceGenerator.class
 sorting/ClosestPair.class

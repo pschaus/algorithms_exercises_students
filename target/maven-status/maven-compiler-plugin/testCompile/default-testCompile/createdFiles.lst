@@ -4,6 +4,7 @@ sorting/AggregateTest.class
 sorting/PhotoTest.class
 searching/BinarySearchTreeHigherTest.class
 searching/BinarySearchTreeIteratorTest.class
+searching/SleighRankingTest.class
 searching/BirthdayMapTest.class
 graphs/SmallestPriceTest.class
 graphs/BubblesTest.class
@@ -13,6 +14,7 @@ fundamentals/CircularLinkedListTest.class
 sorting/MinPQLinkedTest.class
 fundamentals/StackWithTwoQueuesTest.class
 graphs/ErdosTest.class
+graphs/ToyInventoryTest.class
 graphs/BreadthFirstShortestPathsTest.class
 graphs/EvacuationTest.class
 searching/ArrayBSTDeleteTest.class
@@ -20,6 +22,7 @@ sorting/TernaryHeapTest.class
 graphs/ElectricityTest.class
 graphs/ConnectedComponentsTest.class
 graphs/TrainsTest.class
+searching/CandiesBagTest.class
 graphs/TaskSchedulerTest.class
 sorting/DroneContestTest.class
 sorting/RadixSortTest.class
@@ -36,11 +39,13 @@ searching/SkylineTest.class
 searching/ArrayBSTTest.class
 sorting/MergeSortTest.class
 strings/IncrementalHashTest.class
+sorting/PancakeSortingTest.class
 sorting/BinaryHeapTest.class
 sorting/MedianHeapTest.class
 searching/RedBlackTreeConverterTest.class
 graphs/DepthFirstPathsTest.class
 strings/AutoCompleterTest.class
+graphs/CriticalPathwaysTest.class
 searching/RedBlackTreeConverterTest$RBTChecker.class
 searching/PreorderToBSTTest.class
 sorting/GlobalWarmingImplTest.class
