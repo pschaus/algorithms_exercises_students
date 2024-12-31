@@ -38,8 +38,13 @@ import java.util.stream.Collectors;
  *        
  * ________
  *
+ * Input:
+ * int[][] buildings = {{2, 5, 4}, {3, 3, 6}};
+ * Output:
+ * {{2,5},{5,3},{7,0}};
  *
- * We ask you to compute, gien a set of building, their skyline.
+ *
+ * We ask you to compute, given a set of building, their skyline.
  */
 public class Skyline {
 
@@ -48,7 +53,7 @@ public class Skyline {
      *   The buildings are defined with triplets (left, height, right).
      *         int[][] buildings = {{1, 11, 5}, {2, 6, 7}, {3, 13, 9}, {12, 7, 16}, {14, 3, 25}, {19, 18, 22}, {23, 13, 29}, {24, 4, 28}};
      *
-     *         [{1,11},{3,13},{9,0},{12,7},{16,3},{19,18},{22,3},{23,13},{29,0}]
+     *         {{1,11},{3,13},{10,0},{12,7},{17,3},{19,18},{23,13},{30,0}};
      *
      * @param buildings
      * @return  the skyline in the form of a list of "key points [x, height]".
