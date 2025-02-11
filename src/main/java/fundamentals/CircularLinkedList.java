@@ -29,7 +29,7 @@ public class CircularLinkedList<Item> implements Iterable<Item> {
 
     private long nOp = 0; // count the number of operations
     private int n;          // size of the stack
-    private Node  last;   // trailer of the list
+    private Node last;   // trailer of the list
 
     // helper linked list class
     private class Node {

@@ -1,6 +1,6 @@
 package searching;
 
-import java.util.Hashtable;
+import java.util.HashMap;
 import java.util.List;
 
 
@@ -69,44 +69,47 @@ public class Monkeys {
 
 
     /**
-     * Compute the number for monkey named "root.
+     * Compute the number for monkey named "root".
      * Your algorithm should run in O(n) where n is
      * the size of the input.
      */
     public static long evaluateRoot(List<Monkey> input) {
          return -1;
-
     }
 
 
-
-
-
-    static class Monkey {
+    static abstract class Monkey {
         String name;
+
     }
+
     static class YellingMonkey extends Monkey {
         int number;
+
         public YellingMonkey(String name,int number) {
             this.name = name;
             this.number = number;
         }
+
 
         @Override
         public String toString() {
             return name+": "+number;
         }
     }
+
     static class OperationMonkey extends Monkey {
         char op;
         String leftMonkey;
         String rightMonkey;
+
         public OperationMonkey(String name, String left, char op, String right) {
             this.name = name;
             this.leftMonkey = left;
             this.op = op;
             this.rightMonkey = right;
         }
+
 
         @Override
         public String toString() {

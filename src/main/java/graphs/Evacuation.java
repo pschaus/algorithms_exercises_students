@@ -34,8 +34,4 @@ public class Evacuation {
     public static int[] findShortestPaths(int[][] graph, int[] exits) {
          return null;
     }
-
-    public static void main(String[] args) {
-
-    }
 }

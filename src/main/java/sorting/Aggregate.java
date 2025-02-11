@@ -3,6 +3,7 @@ package sorting;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.ArrayList;
 
 /**
  * Your task involves creating an `aggregate` function.
@@ -97,5 +98,6 @@ public class Aggregate {
     public static int[][] aggregate(int[][] input, int column) {
          return null;
     }
+
 }
 
