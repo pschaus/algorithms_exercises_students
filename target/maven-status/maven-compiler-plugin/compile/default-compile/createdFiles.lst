@@ -17,14 +17,14 @@ searching/BinarySearchTree.class
 searching/BinarySearchTreeIterator.class
 graphs/GlobalWarming$Point.class
 strings/WordCounter.class
-fundamentals/CircularLinkedList.class
 graphs/Contact.class
+fundamentals/CircularLinkedList.class
 sorting/ClosestPairGenerator.class
 graphs/MineClimbingInstanceGenerator.class
 strings/AutoCompleterGenerator.class
 searching/Player.class
-fundamentals/CircularLinkedList$ListIterator.class
 graphs/ForbiddenRelation.class
+fundamentals/CircularLinkedList$ListIterator.class
 searching/Person.class
 searching/Monkeys.class
 graphs/IntegerTransformation.class
@@ -42,8 +42,8 @@ graphs/Electricity.class
 strings/AutoCompleterGenerator$AutoCompleterBaseLine$StringNode.class
 sorting/Aggregate.class
 strings/IncrementalHashInstanceGenerator.class
-fundamentals/FileSystem$File.class
 graphs/GlobalWarmingPaths.class
+fundamentals/FileSystem$File.class
 sorting/Median$Vector.class
 fundamentals/FList$1.class
 fundamentals/FList$Nil.class
@@ -56,9 +56,9 @@ graphs/SmallestPrice.class
 graphs/GalaxyPath.class
 graphs/DepthFirstPaths.class
 graphs/ToyInventory.class
+searching/ArrayBST.class
 searching/BirthdayMap.class
 searching/BinarySearchTreeHigher$Node.class
-searching/ArrayBST.class
 searching/RedBlackTreeConverter$RBNode.class
 graphs/WordTransformationSP.class
 strings/IncrementalHashInstanceGenerator$Instance.class
